@@ -15,7 +15,6 @@ public class Player {
 	int moveX = 1;
 	int moveY = 1;
 	
-	@SuppressWarnings("unused")
 	private Game game;
 	public Player(Game game) {
 		this.game = game;
