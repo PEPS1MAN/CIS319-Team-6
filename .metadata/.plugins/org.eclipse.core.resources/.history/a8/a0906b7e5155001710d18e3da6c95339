@@ -3,13 +3,13 @@
  */
 package escapeRoom;
 
-
+import java.awt.Component;
 
 import javax.swing.JFrame;
 
 /**
  * @author Mr_El
- * Commit only the classes and metadata to the github!!!
+ * Commit only the classes to the github!!!
  */
 public class Game {
 
