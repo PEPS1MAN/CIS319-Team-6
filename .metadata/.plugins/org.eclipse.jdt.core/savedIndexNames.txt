@@ -14,7 +14,6 @@ INDEX VERSION 1.129+C:\Users\Mr_El\Documents\GitHub\CIS319-Team-6\.metadata\.plu
 2709225165.index
 4265864773.index
 3666609613.index
-3660113572.index
 4069650667.index
 3141958188.index
 148409970.index
