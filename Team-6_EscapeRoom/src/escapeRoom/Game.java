@@ -12,10 +12,14 @@ import javax.swing.JFrame;
  * Commit only the classes and metadata to the github!!!
  */
 public class Game {
-
+	Player player = new Player(this);
 	/**
 	 * @param args
 	 */
+	
+	private void move() {
+		player.move();
+	}
 	public static void main(String[] args) { //Where game will start.
 		JFrame frame = new JFrame("Escape Room");
 		frame.setSize(800, 600);
