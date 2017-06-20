@@ -26,7 +26,7 @@ public class Game {
 	}
 	
 	public void paint(Graphics g) {
-		super.paint(g);
+		//super.paint(g);
 		Graphics2D g2d = (Graphics2D) g;
 		g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, //turns on anitialising
 				RenderingHints.VALUE_ANTIALIAS_ON);
@@ -35,7 +35,7 @@ public class Game {
 	}
 	public static void main(String[] args) { //Where game will start.
 		JFrame frame = new JFrame("Escape Room");
-		frame.setSize(800, 600); //Standard window size
+		frame.setSize(800, 600);
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}

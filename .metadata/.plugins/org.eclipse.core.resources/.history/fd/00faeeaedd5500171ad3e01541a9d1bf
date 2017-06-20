@@ -21,7 +21,7 @@ public class Player {
 	}
 	
 	public void paint(Graphics2D g) {
-		g.fillRect(x, y, 400, 400);
+		g.fillRect(x, y, 50, 50);
 	}
 
 	public void move() {
