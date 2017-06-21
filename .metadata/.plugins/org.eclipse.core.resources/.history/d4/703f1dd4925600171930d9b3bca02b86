@@ -26,6 +26,6 @@ public class Player {
 	}
 
 	public void move() {
-		if (x + moveX > 0 && x + moveY < 0);
+		if (x + moveX > 0 && x + moveY < game.getWidth() - 30);
 	}
 }

@@ -6,8 +6,6 @@ import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 
 import javax.swing.JFrame;
-import java.awt.Canvas;
-import java.awt.BorderLayout;
 
 /**
  * @author Mr_El
@@ -40,6 +38,16 @@ public class Game {
 		frame.setSize(800, 600); //Standard window size
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Game window = new Game();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
 	}
 
 	/**

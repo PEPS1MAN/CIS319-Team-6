@@ -40,6 +40,19 @@ public class Game {
 		frame.setSize(800, 600); //Standard window size
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Canvas canvas = new Canvas();
+		frame.getContentPane().add(canvas, BorderLayout.WEST);
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Game window = new Game();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
 	}
 
 	/**
